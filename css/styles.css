@@ -13,10 +13,23 @@ a {
 }
 header {
   font-size: 14px;
+  /* display: flex; */
+  /* background-color: tomato; */
+}
+main {
+  display: inline-block;
+  width: 1200px;
 }
 footer {
   font-size: 14px;
   background-color: #2f303a;
+}
+.main-nav {
+  display: flex;
+}
+.container {
+  width: 1200px;
+  /* background-color: tomato; */
 }
 .header-logo {
   color: #000000;
@@ -51,6 +64,7 @@ footer {
   color: var(--brand-color);
   font-weight: 500;
   line-height: 1.14;
+  display: inline-block;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -63,6 +77,7 @@ footer {
   color: #757575;
   font-weight: 500;
   line-height: 1.14;
+  display: inline-block;
 }
 .mlink:hover,
 .mlink:focus {
@@ -72,14 +87,32 @@ footer {
   color: #757575;
   font-weight: 500;
   line-height: 1.14;
+  display: inline-block;
 }
 .tlink:hover,
 .tlink:focus {
   color: var(--bluebrand-color);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .promo {
   background-color: #2f303a;
   color: #fff;
+  height: 600px;
+  width: 1600px;
+}
+.promo-txt {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  width: 696px;
+  height: 120px;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .promo-button {
   font-weight: 700;
@@ -88,12 +121,20 @@ footer {
   background-color: var(--bluebrand-color);
   color: #fff;
   cursor: pointer;
+  width: 216px;
+  height: 50px;
 }
 .promo-button:hover,
 .promo-button:focus {
   background-color: #188ce8;
   color: #fff;
   cursor: pointer;
+}
+.skills-container {
+  display: flex;
+}
+.about-container {
+  display: flex;
 }
 .skill {
   font-weight: 700;
@@ -113,6 +154,9 @@ footer {
   line-height: 42px;
   color: var(--brand-color);
 }
+.team-container {
+  display: flex;
+ }
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -162,19 +206,10 @@ footer {
 .address-tel:focus {
   color: var(--bluebrand-color);
 }
-.hide {
-  display: none;
-}
 .list {
   list-style-type: none;
 }
-.promo-txt {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-transform: uppercase;
-}
+
 .project-name {
   font-weight: 700;
   font-size: 18px;
