@@ -41,14 +41,17 @@ textarea,
 select {
   font: inherit;
 }
+
 a {
   text-decoration: none;
 }
+
 button {
   padding: 0;
   border: none;
   cursor: pointer;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -68,38 +71,45 @@ button {
   --bluebrand-color: #2196f3;
   --discription-color: #757575;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   letter-spacing: 0.03em;
   color: var(--brand-color);
   background-color: #fff;
+  font-size: 14px;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 /* -----------HEADER--------- */
+
 .header {
-  font-size: 14px;
   height: 80px;
 }
+
 .main-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0 25px 0;
+  padding: 24px 15px 25px 15px;
 }
+
 .studio-nav {
   display: flex;
   align-items: center;
   margin-right: auto;
 }
+
 .contact-nav {
   display: flex;
   margin-left: auto;
@@ -119,22 +129,27 @@ body {
   letter-spacing: 0.03em;
   margin-right: 93px;
 }
+
 .logospan {
   color: var(--bluebrand-color);
 }
+
 .nav-link {
   color: var(--brand-color);
   font-weight: 500;
   line-height: 1.14;
 }
+
 .nav-list {
   letter-spacing: 0.02em;
   margin-right: 50px;
 }
+
 .contact-list {
   letter-spacing: 0.02em;
   margin-left: 50px;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .mlink:hover,
@@ -143,17 +158,20 @@ body {
 .tlink:focus {
   color: var(--bluebrand-color);
 }
+
 .active-link {
   color: var(--bluebrand-color);
 }
+
 .mlink,
 .tlink {
   color: #757575;
   font-weight: 500;
   line-height: 1.14;
 }
-/* -------MAIN------- */
-/* -------HERO------- */
+
+/* -------PROMO------- */
+
 .promo {
   max-width: 1600px;
   background-color: #2f303a;
@@ -164,6 +182,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .promo-txt {
   font-style: normal;
   font-weight: 900;
@@ -174,6 +193,7 @@ body {
   margin-bottom: 30px;
   max-width: 696px;
 }
+
 .promo-button {
   font-weight: 700;
   font-size: 16px;
@@ -188,43 +208,43 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  /* margin-bottom: 200px; */
 }
+
 .promo-button:hover,
-.promo-button:focus {
+.promo-button:focus,
+.promo-button:active {
   background-color: #188ce8;
   color: #fff;
+  border: 0;
 }
+
 /* --------SKILL SECTION-------- */
+
 .skills-list {
   display: flex;
 }
+
 .skill-item:not(:last-child) {
   margin-right: 30px;
 }
 .skill {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   color: var(--brand-color);
   padding-bottom: 10px;
 }
 .skill-description {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--discription-color);
 }
+
 /* --------ABOUT US------- */
+
 .about {
   padding-top: 0;
 }
-.about-list {
-  display: flex;
-}
-.about-item:not(:last-child) {
-  margin-right: 30px;
-}
-.we-are {
+
+.about-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -232,27 +252,51 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+
+.about-list {
+  display: flex;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team {
   background-color: #f5f4fa;
   padding-top: 0;
 }
+
+.we-are {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--brand-color);
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
 .team-list {
   display: flex;
 }
+
 .team-member {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
 }
+
 .team-member:not(:last-child) {
   margin-right: 30px;
 }
+
 .team-member-info {
   padding-top: 30px;
   padding-bottom: 30px;
   align-items: center;
 }
+
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -261,21 +305,22 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .rank {
   font-size: 16px;
   line-height: 19px;
   color: var(--discription-color);
   text-align: center;
 }
+
 /* --------FOOTER------- */
+
 .footer {
-  font-size: 14px;
   background-color: #2f303a;
-}
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer-logo {
   color: #fff;
   width: 145px;
@@ -288,19 +333,27 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
+
 .address {
   line-height: 1.71;
   font-style: normal;
   margin-top: 20px;
 }
+
 .footer-list {
-  margin: 9px auto;
+  margin-bottom: 9px
 }
+.footer-list:last-child {
+  margin-bottom: 0;
+}
+
 .address-map {
   color: #fff;
   line-height: 1.71;
 }
+
 .address-map:hover,
 .address-map:focus,
 .address-mail:hover,
@@ -309,26 +362,31 @@ body {
 .address-tel:focus {
   color: var(--bluebrand-color);
 }
+
 .address-mail,
 .address-tel {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
   font-style: normal;
 }
+
 .list {
   list-style-type: none;
 }
 
 /* -------PORTFOLIO------- */
+
 .filter-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 8px 8px 50px 8px;
 }
+
 .filter-item {
   margin-right: 10px;
 }
+
 .filter-button {
   background-color: #f5f4fa;
   cursor: pointer;
@@ -338,32 +396,39 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
 }
+
 .filter-item:last-child {
   margin-right: 0px;
 }
+
 .filter-button:hover,
 .filter-button:focus,
 .filter-button:active {
   background-color: var(--bluebrand-color);
   color: #fff;
   cursor: pointer;
-  box-shadow: #0000001a;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .project-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .project-item {
   border-bottom: 1px solid;
   border-color: #eeeeee;
 }
+
 .project-card-border {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
 }
+
 .project-name {
   font-weight: 700;
   font-size: 18px;
@@ -371,6 +436,7 @@ body {
   color: var(--brand-color);
   letter-spacing: 0.06em;
 }
+
 .project-type {
   font-size: 16px;
   line-height: 1.88;
