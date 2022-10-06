@@ -82,7 +82,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -95,7 +95,6 @@ body {
 /* -----------HEADER--------- */
 
 .header {
-  display: flex;
   height: 80px;
 }
 
@@ -106,8 +105,7 @@ body {
 
 .studio-nav {
   display: flex;
-  align-items: center;
-  margin-right: auto;
+  gap: 50px;
 }
 
 .contact-nav {
@@ -130,7 +128,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
-  padding-left: 15px;
 }
 
 .logospan {
@@ -145,8 +142,8 @@ body {
 
 .nav-list {
   letter-spacing: 0.02em;
-  margin-right: 50px;
-  padding: 24px 0 25px 0;
+  /* margin-right: 50px; */
+  padding: 32px 0;
 }
 
 .contact-list {
@@ -180,14 +177,14 @@ body {
 /* -------PROMO------- */
 
 .promo {
-  max-width: 1600px;
   background-color: #2f303a;
   color: #fff;
   margin: 0 auto;
-  text-align: center;
   display: flex;
+  text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  padding-left: 0;
 }
 
 .promo-txt {
@@ -197,8 +194,9 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  margin: auto;
   margin-bottom: 30px;
-  max-width: 696px;
+  width: 696px;
 }
 
 .promo-button {
@@ -294,7 +292,6 @@ body {
   background-color: #fff;
 }
 
-
 .team-member-info {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -347,7 +344,7 @@ body {
 }
 
 .footer-list {
-  margin-bottom: 9px
+  margin-bottom: 9px;
 }
 .footer-list:last-child {
   margin-bottom: 0;
