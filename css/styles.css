@@ -113,6 +113,7 @@ body {
 .contact-nav {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .header-logo {
@@ -153,9 +154,12 @@ body {
 
 .nav-link:hover,
 .nav-link:focus,
+.nav-link:active,
 .mlink:hover,
 .mlink:focus,
+.mlink:active,
 .tlink:hover,
+.tlink:active,
 .tlink:focus {
   color: var(--bluebrand-color);
 }
@@ -256,10 +260,11 @@ body {
 
 .about-list {
   display: flex;
+  gap: 30px;
 }
 
-.about-item:not(:last-child) {
-  margin-right: 30px;
+.about-item {
+width: calc((100% - 60px)/3);
 }
 
 .team {
@@ -279,6 +284,7 @@ body {
 
 .team-list {
   display: flex;
+  gap: 30px;
 }
 
 .team-member {
@@ -286,11 +292,9 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
+  width: calc((100%-90px)/4);
 }
 
-.team-member:not(:last-child) {
-  margin-right: 30px;
-}
 
 .team-member-info {
   padding-top: 30px;
