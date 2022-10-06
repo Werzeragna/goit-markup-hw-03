@@ -260,11 +260,8 @@ body {
 
 .about-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
-}
-
-.about-item {
-width: calc((100% - 60px)/3);
 }
 
 .team {
@@ -284,6 +281,7 @@ width: calc((100% - 60px)/3);
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -292,7 +290,6 @@ width: calc((100% - 60px)/3);
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
-  width: calc((100%-90px)/4);
 }
 
 
