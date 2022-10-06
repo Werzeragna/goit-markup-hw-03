@@ -112,6 +112,7 @@ body {
 
 .contact-nav {
   display: flex;
+  flex-wrap: wrap;
   margin-left: auto;
   align-items: center;
 }
@@ -145,6 +146,7 @@ body {
 .nav-list {
   letter-spacing: 0.02em;
   margin-right: 50px;
+  padding: 24px 0 25px 0;
 }
 
 .contact-list {
