@@ -95,13 +95,13 @@ body {
 /* -----------HEADER--------- */
 
 .header {
+  display: flex;
   height: 80px;
 }
 
 .main-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0 25px 0;
 }
 
 .studio-nav {
